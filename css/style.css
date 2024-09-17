@@ -1,0 +1,420 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: url(../lake1.jpeg);
+    background-size: cover;
+}
+.container .page{
+    width: 100%;
+    height: 100vh; 
+}
+.page header nav{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(black,white);
+    backdrop-filter: blur(4px);
+}
+.page header nav img{
+    width: 10%;
+    height: 60px;
+}
+.page header nav .menu{
+    width: 50%;
+    height: 60px;
+}
+.page header nav .menu ul{
+    width: 100%;
+    height: 10vh;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: 900;
+    text-decoration: none;
+}
+.page header nav .menu ul li a:hover{
+    background: rgb(black);
+}
+
+
+
+.page .box1 h2{
+    font-size: 40px;
+    margin-left: 20px;
+}
+.page .box1  p{
+    display: flex;
+    margin-top: 20px;
+    padding: 10px;
+    position: relative;
+    left: 40px;
+    right: 50px;
+}
+.page .box1 ul li a{
+    text-decoration: none;
+    
+}
+.page .box1 ul li{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    top: 80px; 
+    text-decoration: none;   
+    
+}
+.container .page1{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(105, 117, 101);
+}
+.page1 .box .box1{
+    width: 50%;
+    height: 80vh;
+    position: relative;
+    top: 50px;
+    left: 30px;
+    background: url(../pic1.jpeg);
+    background-size: cover;
+    border-radius: 10px;
+}
+.page1 .box  .box2{
+    width: 90%;
+    height: 80vh;  
+    position: relative;
+    left: 104%;
+    bottom: 19px;
+}
+.page1 .box .box2  ul li{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    top: 60px; 
+    text-decoration: none;
+}
+.page1 .box .box2  ul li a{
+    text-decoration: none;
+}
+
+.page2{
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    background: url(../island.jpeg);
+    background-size: cover;
+    
+}
+.box1{
+    width: 50%;
+    height: 80vh;
+}
+.page2 .box1 h5{
+    color: black;
+    font-size: 50px;
+    margin-left: 30px;
+}
+.page2 .box1 h5 p{
+    color: black;
+    font-size: 10px;    
+}
+.page2 .box1 ul li{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    top: 60px; 
+    text-decoration: none;
+}
+.page1 .box .box2  ul li a{
+    text-decoration: none;
+
+
+}
+.container .page3{
+    width: 100%;
+    height: 100vh;
+    background: url(../men.jpeg);
+    background-size: cover; 
+    padding: 0;
+}
+ .page3 .box3{
+    width: 50%;
+    height: 80vh;
+    position:relative;
+    top: 10PX;
+    left: 30px; 
+}
+.page3 .box3 h2{
+    align-items: center;
+    position: relative;
+    top: 10px;
+    left: 30px;
+}
+.page4{
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    background: url(../p2.jpg);
+    background-size: cover;
+}
+.box4{
+    width: 100%;
+}
+.page4 .box4 h4{
+    color: black;
+    font-size: 100px;
+}
+.page4 .box4 p{
+    color:black;
+    font-size: 16px;
+    line-height: 15px;
+}
+
+.page4 .box4 ul li{
+    text-decoration: none;
+}
+.box5 .card{
+    width: 200px;
+    height:200px ;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 12px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+ .card1{
+    background-image: url(../p2.jpg);
+    background-size: cover;
+
+}
+.card2{
+background-image: url(../p3.jpg);
+background-size: cover;
+}
+.card3{
+    background-image: url(../p4.jpg);
+    background-size: cover;
+}
+.card4{
+    background-image: url(../p5.jpg);
+    background-size: cover;
+}
+.card:hover{
+    transform: translateY(-10px);
+
+}
+h3{
+    color: #000;
+    text-shadow: 0 0 5px #999;
+}
+.card p{
+    text-shadow: 0 0 15px #000;
+    font-size: 8px;
+}
+
+.page5{
+    width: 100%;
+    height: 100vh;
+    background:url(../bg1.jpg   );
+    background-size: cover;
+}
+.page5 .box .box6{
+    width: 50%;
+    height: 80vh;
+    position: relative;
+    top: 50px;
+    left: 30px;
+    background: url(../forest\ bg.jpeg);
+    background-size: cover;
+    border-radius: 10px;
+}
+.page5 .box .box7{
+    width: 90%;
+    height: 80vh;
+    position: relative;
+    left: 104%;
+    bottom: 19px;
+}
+
+.page5 .box .box7 ul li{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 16px;
+    align-items: center;
+    position: relative;
+    top: 50px;
+    text-decoration: none;
+
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+footer .container1{
+    background-color: black;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+}
+.footer-col ul{
+    list-style: none;
+}
+.footer-col h4{
+    color: azure;
+    margin-bottom: 25px;
+    font-size: 22px;
+    position: relative;
+    font-family: 'Ubuntu', sans-serif;
+}
+.footer-col h4 ::before{
+    content: none;
+    width: 70px;
+    height: 2px;
+    position: absolute;
+    background-color: #363435 ;
+    bottom: -10px;
+}
+.footer-col ul li{
+    padding: 10px 0;
+}
+.footer-col ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.footer-col ul li a:hover{
+    opacity: 1;
+}
+.footer-col input{
+    border: none;
+    width: 200px;
+    height: 45px;
+    display: block;
+    padding-left: 20px;
+    margin: 14px 0;
+}
+.footer-col .inputsubmit{
+    padding: 0 20px;
+    background-color: #252324;
+    border: none;
+    color: white;
+}
+.col p{
+    color: white;
+}
+
+
+
+
+@media (max-width:780px){
+    .container{
+        width: 90%;
+        height: 100vh; 
+    }
+    .page .box1 p{
+        align-items: center;
+    }
+    .page .box1 ul li{
+        top: 30px; 
+    }
+    .page1 .box .box1{
+        width: 40%;
+        height: 30vh;
+        padding: 0 ;
+    }
+    .page1 .box .box2{
+        width: 24vh;
+        
+    }
+    .page2 .box1{
+        width: 28vh;
+    }
+    .container .page3 p{
+        width: 30vh;   
+    }
+    .page5 .box .box6{
+        width: 5px;
+        height: 60vh;
+        position: relative;
+        left: 0;
+    }
+    .page5 .box .box6{
+        width: 24vh;
+    }
+    .container1{
+        width: 90%;
+    }
+
+} 
+
+
+
+
+
+@media (max-width:500px){
+    .container{
+        width: 100%;
+        height: 100vh; 
+    }
+    .page header nav{
+        width:100% ;
+        height: 10vh;
+    }
+    .page header nav .menu{
+        font-size: 10px;
+    }
+    .page .box1 h2{
+        font-size: 20px;
+    }
+    .page .box1 p{
+        font-size: 10px;
+    }
+
+    .page1 .box .box1{
+        width: 30%;
+        height: 30v;
+        padding:3px ;
+    }
+    .page1 .box .box2{
+        width: 58vh;
+        
+    }
+    .page2 .box1{
+        width: 28vh;
+    }
+    .container .page3 p{
+        width: 30vh;   
+    }
+    .page5 .box .box6{
+        width: 5px;
+        height: 60vh;
+        position: relative;
+        left: 0;
+    }
+    .page5 .box .box6{
+        width: 24vh;
+    }
+    .container1{
+        width: 90%;
+    }
+
+}
